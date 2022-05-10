@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Foody_29</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Lịch sử</string>
+    <string name="title_notifications">Tài khoản</string>
+
+    <string name="str_nav_home">Home</string>
+    <string name="str_nav_notification">Notifications</string>
+    <string name="str_nav_collection">Collections</string>
+    <string name="str_nav_account">Account</string>
+    <string name="str_nav_search">Search</string>
+    <string name="str_appbar_logoDescription">Foody</string>
 </resources>

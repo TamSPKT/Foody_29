@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ProductActivity">
+
+    <ImageView
+        android:id="@+id/imageView_product_detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/product1_kfc"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/textView_product_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="Tên sản phẩm"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_product_detail_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="Giá: 10000VND"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_product_detail_increment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_weight="1"
+                android:text="Thêm" />
+
+            <TextView
+                android:id="@+id/textView_product_detail_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/button_product_detail_decrement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="50dp"
+                android:layout_weight="1"
+                android:text="Giảm" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button_product_detail_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanh toán"
+        android:textSize="20sp" />
+
+</LinearLayout>
